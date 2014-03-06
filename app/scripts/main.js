@@ -1,5 +1,4 @@
-var Band = Parse.Object.extend("Band")
- 
-var BandCollection = Parse.Collection.extend({
-  model: Band
-})
+
+$(function()){
+	Parse.initialize("t899K0oegoIaqBofzoUptQ5RKNwvC27ouCYQS2f4", "P2Nux1Ndq7wKVkAKazHnW2WZlQoQVLETVvDUbu3S");
+}
