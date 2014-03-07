@@ -1,9 +1,21 @@
-var MainView = Parse.View.extend({
+// var MainView = Parse.View.extend({
 
-	className = 'bandname',
+// 	className = 'bandname',
 
-	createTemplate = _.template($('#jumbotron-template').text()),
+// 	createTemplate = _.template($('#marketing-template').text()),
 
-	
+// 	initialize: function() {
 
-})
+// 		$('.marketing').html()
+
+// 		this.render()
+// 	},
+
+// 	render: function() {
+
+// 		var renderedTemplate = this.
+
+// 		this.$el.html(renderedTemplate)
+// 	}
+
+// })
