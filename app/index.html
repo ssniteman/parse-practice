@@ -49,7 +49,7 @@
    
                 <div class="form-group">
                   <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default sign-in">Sign in</button>
+                    <button type="submit" class="btn btn-default sign-up">Sign up</button>
                   </div>
                 </div>
               </form>
@@ -67,7 +67,7 @@
 
         <script type="text/template" id="marketing-template">
 
-          <%= bandname %>
+          <%= model.get('name') %>
 
         </script>
 
@@ -109,7 +109,7 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/band.js"></script>
-        <script src="scripts/main-view.js"></script>
+        <script src="scripts/row-view.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
