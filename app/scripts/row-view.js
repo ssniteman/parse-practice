@@ -8,7 +8,7 @@ var RowView = Parse.View.extend({
 
 		console.log('initializing')
 
-		$('.marketing').html()
+		$('.marketing').append(this.el)
 
 		this.render()
 	},
