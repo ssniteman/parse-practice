@@ -8,12 +8,16 @@ band.fetch()
 
 $('.sign-in').click(function(){
 
-	var username = new Band();
+	var bandname = new Band();
 
-		username.save({
+		bandname.save({
 			name: $('.name-input').val(),
 		
 		})
+
+		// clearing out value after entered
+
+		$('name-input').val('');
 
 
 });
