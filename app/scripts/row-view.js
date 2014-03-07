@@ -11,6 +11,8 @@ var RowView = Parse.View.extend({
 
 		$('.marketing').append(this.el)
 
+        // this.on(add, newRowView)
+
 		this.render()
 	},
 
